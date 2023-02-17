@@ -1,0 +1,8 @@
+<div class="bg-success">
+    <button (click)="setHabilitar()">{{ habilitar == true ? 'Ocultar' : 'Mostar' }}</button>
+    <ng-container *ngIf="habilitar == true">
+        <div *ngFor="let curso of listaCurso">
+            {{ curso }}
+        </div>
+    </ng-container>
+</div>
