@@ -1,2 +1,2 @@
 # clientes-app
-Aplicación realizada en Angular 15
+Curso realizado Angular y Spring Boot - Aplicación realizada en Angular 15
